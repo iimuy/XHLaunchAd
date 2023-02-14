@@ -37,7 +37,7 @@
         
         _skipType = skipType;
         
-        CGFloat y = [UIApplication sharedApplication].statusBarFrame.size.height - 20;
+        CGFloat y = [UIApplication sharedApplication].statusBarFrame.size.height;
         self.frame = CGRectMake(XH_ScreenW-80,y, 70, 35);//方形
         switch (skipType) {
             case SkipTypeRoundTime:
